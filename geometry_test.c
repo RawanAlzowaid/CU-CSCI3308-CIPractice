@@ -158,7 +158,8 @@ START_TEST(test_coord_2d_area_triangle)
     c.y=15;
     double area= coord_2d_area_triangle(&a,&b,&c);
     ck_assert(area==270);
-
+}
+END_TEST
 /* coord_2d Test Suite */
 Suite* coord_2d_suite(void)
 {
