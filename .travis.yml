@@ -1,5 +1,5 @@
 language: c
-SUDO: SCONS
+sodu: SCONS
 compiler: 
  -gcc
 script: make dep && make && make test
